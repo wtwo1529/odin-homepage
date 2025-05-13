@@ -1,0 +1,41 @@
+.my-work {
+  display: flex;
+  flex-direction: column;
+  margin: 0 max(20px, 7.5%) 0 max(20px, 7.5%);
+}
+
+.my-work-container {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px 0 20px 0;
+}
+
+.my-work-content {
+  width: 33%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-work-img {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.my-work-desc {
+  padding: 20px;
+}
+
+.my-work-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.my-work-links-container {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}

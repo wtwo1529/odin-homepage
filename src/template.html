@@ -1,87 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage - McDonald's</title>
-    <script defer>
-        // menuBtn = document.querySelector('#menu-btn');
-
-        // menuBtn.addEventListener((event) => {
-        //     window.location.href = "menu.html"
-        // })
-    </script>
-</head>
-<body>
-    <header class="header">
-        <nav class="nav-bar">
-            <button type="button" class="nav-btn logo" id="logo"></button>
-            <button type="button" class="nav-btn">Latest Promotions</button>
-            <div class="dropdown nav-btn">
-                <button id="menu-btn" class="dropdown-btn">Our Menu</button>
-                <div class="dropdown-content" id="menu-content">
-                    <a href="#" id="full-menu">Full Menu</a>
-                    <a href="#">Promotions</a>
-                    <a href="#">About Our Food</a>
-                    <a href="#">About Our Breakfast</a>
-                    <a href="#">24 Hour McDelivery</a>
-                </div>
-              </div>
-            <button type="button" class="nav-btn">About McDonald's Birthday Party</button>
-            <div class="dropdown nav-btn">
-                <button id="about-btn" class="dropdown-btn">About Us</button>
-                <div class="dropdown-content" id="about-content">
-                    <a href="#" id="our-history">Our History</a>
-                    <a href="#">Restaurant Designs</a>
-                    <a href="#">McDonald’s® Family Club</a>
-                    <a href="#">Our Achievements</a>
-                    <a href="#">Press Release</a>
-                    <a href="#">Social Responsibility</a>
-                    <a href="#">Careers</a>
-                </div>
-              </div>
-            <button type="button" class="nav-btn">FAQs</button>
-        </nav>
-        <button type="button" id="order-now"></button>
-        <div class="header-img-container">
-            <img class="header-img" id="homepage" src="./components/homepage/img-slideshow1.jpg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+  </head>
+  <body>
+    <header class="about-me-container">
+      <div class="profile-photo-container">
+        <picture>
+          <img
+            src="./components/imgs/profile-photo.jpg"
+            alt="Profile Picture"
+            height="3"
+          />
+        </picture>
+        <p class="profile-photo-subtitle">Ashley Williams</p>
+      </div>
+      <div class="about-me-text-container">
+        <h1>About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, soluta
+          unde totam reprehenderit quidem repellendus odit corrupti tempore
+          dolore error iste tenetur suscipit quod aperiam incidunt numquam ab
+          porro quo? Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Tempore cumque neque doloremque eius, aperiam vero nesciunt corporis
+          non quae eos nulla minus blanditiis repellendus reprehenderit error
+          iure, temporibus dolores velit. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Harum beatae odio suscipit numquam debitis dolores
+          aperiam, rem dolor et earum velit, ad non doloremque! Impedit aut illo
+          eius a consequuntur.
+        </p>
+        <div class="social-links">
+          <a href="/" target="_blank">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+              class="social-icons"
+              width="25px"
+            />
+          </a>
+          <a href="/" target="_blank">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg"
+              class="social-icons"
+              width="25px"
+            />
+          </a>
+          <a href="/" target="_blank">
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/twitter/twitter-original.svg"
+              class="social-icons"
+              width="25px"
+            />
+          </a>
         </div>
+      </div>
     </header>
-    <div id="content"></div>
-    <footer>
-        <div id="links">
-            <div id="find" class="footer-link-category">
-                <h1 class="footer-category-header">Find a Restaurant</h1>
-                <a href="#" class="footer-links">All addresses</a>
-                <a href="#" class="footer-links">McCafé Counter Address</a>
-            </div>
-            <div id="about-us" class="footer-link-category">
-                <h1 class="footer-category-header">About Us</h1>
-                <a href="#" class="footer-links">Our History</a>
-                <a href="#" class="footer-links">Restaurant Design</a>
-                <a href="#" class="footer-links">McDonald’s® Party</a>
-                <a href="#" class="footer-links">McDonald’s® Family Club</a>
-                <a href="#" class="footer-links">Our Achievements</a>
-                <a href="#" class="footer-links">Press Release
+    <div class="my-work">
+      <h1>My Work</h1>
+      <div class="my-work-container">
+        <div class="my-work-content">
+          <picture></picture>
+          <div class="my-work-desc">
+            <div class="my-work-header">
+              <h1>Battleship</h1>
+              <div class="my-work-links-container">
+                <a href="https://github.com/wtwo1529" target="_blank">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    class="social-icons"
+                    width="25px"
+                  />
                 </a>
+                <a>
+                  <img
+                    src="./components/imgs/external-link.svg"
+                    alt=""
+                    width="25px"
+                  />
+                </a>
+              </div>
             </div>
-            <div id="about-food" class="footer-link-category">
-                <h1 class="footer-category-header">About Our Food</h1>
-                <a href="#" class="footer-links">Nutrition information</a>
-                <a href="#" class="footer-links">McDonald’s Inside Out</a>
-                <a href="#" class="footer-links">Commitment to Quality</a>
-                <a href="#" class="footer-links">Restaurant Hygiene Standards</a>
-            </div>
-            <div id="social-responsibility" class="footer-link-category">
-                <h1 class="footer-category-header">Social Responsibility</h1>
-                <a href="#" class="footer-links">Green Operations</a>
-                <a href="#" class="footer-links">Caring for our Community</a>
-            </div>
-            <div id="careers" class="footer-link-category">
-                <h1 class="footer-category-header">Careers</h1>
-                <a href="#" class="footer-links">All vacancies</a>
-            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              facilis nisi deserunt eveniet facere praesentium quia. Molestias,
+              omnis beatae, nulla esse culpa enim quas expedita reprehenderit
+              atque, voluptatum itaque voluptate?
+            </p>
+          </div>
         </div>
+        <div class="my-work-content">
+          <picture>
+            <img
+              class="my-work-img"
+              src="./components/imgs/odin-weather-app.png"
+              alt="Weather App"
+            />
+          </picture>
+          <div class="my-work-desc">
+            <div class="my-work-header">
+              <h1>Weather App</h1>
+              <div class="my-work-links-container">
+                <a href="https://github.com/wtwo1529" target="_blank">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    class="social-icons"
+                    width="25px"
+                  />
+                </a>
+                <a>
+                  <img
+                    src="./components/imgs/external-link.svg"
+                    alt=""
+                    width="25px"
+                  />
+                </a>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              facilis nisi deserunt eveniet facere praesentium quia. Molestias,
+              omnis beatae, nulla esse culpa enim quas expedita reprehenderit
+              atque, voluptatum itaque voluptate?
+            </p>
+          </div>
+        </div>
+        <div class="my-work-content">
+          <picture>
+            <img
+              class="my-work-img"
+              src="./components/imgs/odin-to-do-list.png"
+              alt="To Do List"
+            />
+          </picture>
+          <div class="my-work-desc">
+            <div class="my-work-header">
+              <h1>To Do List</h1>
+              <div class="my-work-links-container">
+                <a href="https://github.com/wtwo1529" target="_blank">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                    class="social-icons"
+                    width="25px"
+                  />
+                </a>
+                <a>
+                  <img
+                    src="./components/imgs/external-link.svg"
+                    alt=""
+                    width="25px"
+                  />
+                </a>
+              </div>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              facilis nisi deserunt eveniet facere praesentium quia. Molestias,
+              omnis beatae, nulla esse culpa enim quas expedita reprehenderit
+              atque, voluptatum itaque voluptate?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-info-container">
+        <h1>Contact Me</h1>
+        <p>
+          Please get in touch if you think our work could be mutually
+          beneficial!
+        </p>
+        <p>1234 Random Road Random Town, California 12345</p>
+        <div class="phone-number">
+          <img src="./components/imgs/phone.svg" alt="" width="20px" />
+          <p>555-555-5555</p>
+        </div>
+        <div class="email">
+          <img src="./components/imgs/email-outline.svg" alt="" width="20px" />
+          <p>ashleywilliams.is.not.real@gmail.com</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>

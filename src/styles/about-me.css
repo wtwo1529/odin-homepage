@@ -45,7 +45,7 @@
 .about-me-text-container {
   display: flex;
   flex-direction: column;
-  min-width: 440.53px;
+  min-width: 250px;
   max-width: 600px;
   font-family: "Playfair-Display", serif;
   background-color: white;
